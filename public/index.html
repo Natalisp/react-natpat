@@ -6,9 +6,9 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     <title>NatPat Web Developer</title>
   </head>
+  <body>
   <div class="wrapper">
   <header role="header">
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -40,14 +40,17 @@
             <li><a href="#contact">Contact</a></li>
 
             <li><a href="https://syntaxerro.wordpress.com/" target="_blank">Blog</a></li>
+
           </ul>
         </div>
       </div>
     </nav>
   </header>
 
+
   <section id="home" class="sec-main">
-    <h1 class="main-heading">Where creativity happens.</h1>
+    <h1 class="main-heading">Because I live and breathe all aspects of design.</h1>
+     <canvas id="c"></canvas>
   </section>
 
   <section id="about" class="sec-about">
@@ -55,23 +58,38 @@
       <h1>About me</h1>
 
       <hr />
-
       <div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
-          <p></p>
+        <div class="col-sm-8 col-md-offset-2">
+          <p>
+            <div="aboutme">
+            <div id="greet"></div> my name is Natallia and I am a Web Designer & Developer based in New York City. I enjoy creating beautiful web things using Ruby on Rails, HTML5, CSS3 and React. My other skills include Photoshop, WordPress, Quality Assurance, UX/UI design. Every day I try to fight against horrible web interfaces, destroy confusion in all forms, and  make the internet a more beautiful and positive place one block of code at a time.  You can see my resume <a href="https://learn.co/Natalisp/resume" target="_blank">here</a>. If you want to hire me or just to talk, <a class="js-connect" href="#footer">connect</a> with me.
+          </div>
+          </p>
         </div>
       </div>
     </div>
   </section>
   <section id="services" class="sec-services">
     <div class="container">
+      <h1>Stats</h1>
+      <hr />
 
+    <div class="row">
+      <div id="stats">  </div>
     </div>
+  </div>
   </section>
 
   <section id="folio" class="sec-folio">
     <div class="container">
-      <h1>Previous Projects</h1>
+      <h1>Recent Projects</h1>
+      <hr />
+
+      <div class="row">
+
+      <div id="projects"></div>
+        </div>
+      </div>
 
     </div>
   </section>
@@ -88,13 +106,13 @@
             <div class="form-group">
               <label class="sr-only" for="inputName">Full name</label>
 
-              <input id="inputName" class="form-control" type="text" placeholder="Adam Smith" required />
+              <input id="inputName" class="form-control" type="text" placeholder="Natallia Pat" required />
             </div>
 
             <div class="form-group">
               <label for="inputMail" class="sr-only">Email Address</label>
 
-              <input id="inputMail" class="form-control" type="email" placeholder="adam.smith@mail.com" required />
+              <input id="inputMail" class="form-control" type="email" placeholder="nathalipat@gmail.com" required />
             </div>
 
             <div class="form-group">
@@ -111,24 +129,20 @@
       </div>
     </div>
   </section>
+  <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+   <script src="./particles.js"></script>
+</body>
 
   <footer id="footer">
     <div class="container">
       <ul class="soc-media-ul">
+
         <li>
-          <a href="" class="fa fa-twitter" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/nataliepat/" class="fa fa-linkedin" target="_blank"></a>
         </li>
 
         <li>
-          <a href="" class="fa fa-google-plus" target="_blank"></a>
-        </li>
-
-        <li>
-          <a href="" class="fa fa-linkedin" target="_blank"></a>
-        </li>
-
-        <li>
-          <a href="" class="fa fa-behance" target="_blank"></a>
+          <a href="https://github.com/Natalisp" class="fa fa-github" target="_blank"></a>
         </li>
 
         <li>

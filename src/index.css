@@ -5,17 +5,15 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 300;
+  background-color: #FFF;
 }
 
 html {
   font-size: 16px;
 }
 
-body {
-  font-family: 'Open sans', sans-serif;
-  font-weight: 300;
-}
 
 .navbar a,
 .sec-about p {
@@ -32,7 +30,7 @@ body {
 
 .main-heading {
   font-family: 'Open sans', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   text-align: center;
   letter-spacing: 9px;
   text-transform: uppercase;
@@ -45,7 +43,7 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1vw;
   line-height: 1.5;
 }
 
@@ -104,6 +102,9 @@ hr {
 }
 
 /*=Layout=*/
+.sec-folio {
+  background: #fff;
+}
 
 .sec-folio .row {
   margin-bottom: 3em;
@@ -115,6 +116,11 @@ hr {
 
 /*Header*/
 
+.navbar-default .navbar-brand {
+    color: #000;
+    font-weight: 400;
+}
+
 .navbar-default {
   background: #fff;
 }
@@ -125,11 +131,18 @@ hr {
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-  color: #ad0000;
+  color: #EFDC05;
+  opacity: 0.5;
+  transform: scale(1.1);
+  filter: blur(0.8px)
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
 }
 
 .navbar-default .navbar-nav>li>a:active {
-  color: darken(#ad0000, 5%);
+  color: darken(#000, 5%);
 }
 
 /*Main*/
@@ -137,7 +150,6 @@ hr {
 .sec-main {
   position: relative;
   height: 560px;
-  background: url(https://source.unsplash.com/kVf7VRgg4p8/1920x1080) no-repeat center center;
   background-size: cover;
 
   &:after {
@@ -160,11 +172,14 @@ hr {
   z-index: 2;
   padding: 0;
   margin: auto;
-  height: 40px;
-  color: #fff;
+  height: 20px;
+  color: #000;
 }
 
 /*About*/
+.sec-about {
+  background: #fff;
+}
 
 .sec-about a {
   color: #000;
@@ -177,7 +192,6 @@ hr {
 /*Services*/
 
 .sec-services {
-  background: #f9f9f9;
 }
 
 .sec-services i {
@@ -198,25 +212,27 @@ hr {
   margin: 1em 0;
 }
 
+
+
 /*Contact*/
 
 .sec-contact .form-control:focus {
-  border-color: #ad0000;
+  border-color: #ffff00;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(173, 0, 0, .6);
 }
 
 .sec-contact .btn {
   padding: .5rem 1.75rem;
   background: #000;
-  font-size: .95rem;
+  font-size: 0.5vw;
   color: #fff;
 
   @extend %transition;
 
   &:hover,
   &:focus {
-    background: #ad0000;
-    border-color: darken(#ad0000, 10%);
+    background: #ffff33;
+    border-color: darken(#ffff33, 10%);
   }
 }
 
@@ -238,7 +254,7 @@ footer {
 .soc-media-ul a {
   display: block;
   padding: 0.5em .65rem;
-  font-size: 1rem;
+  font-size: 1vw;
   color: #fff;
   border-radius: 50%;
   border: 2px solid;
@@ -247,4 +263,58 @@ footer {
   &:focus {
     color: #ad0000;
   }
+}
+
+/*Particles*/
+#c {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+
+/*Stats*/
+
+#stat {
+  font-size: 3vw;
+  font-weight: 200;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+#greet {
+  display: inline-block;
+  width: 3vw;
+}
+
+.project-wrap:hover {
+  transform: scale(1.15);
+}
+
+.project-wrap a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+span.top {
+  padding: 15px 10px 0;
+  display: block;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-align: center;
+}
+span.bottom {
+  padding: 0 10px 15px;
+  display: block;
+  font-size: 1.3vw;
+  padding-bottom: 10vh;
+
 }
