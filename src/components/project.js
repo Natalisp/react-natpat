@@ -8,7 +8,7 @@ class Project extends Component {
         <div className="project-wrap">
             <img src={this.props.src} />
             <span className="top">{this.props.title}</span>
-            <span className="bottom">{this.props.tools}</span>
+            <span className="bottom"><p>{this.props.tools}</p></span>
         </div>
       </div>
     )
