@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <title>NatPat Web Developer</title>
   </head>
   <body>
@@ -55,14 +56,14 @@
 
   <section id="about" class="sec-about">
     <div class="container">
-      <h1>About me</h1>
+      <h1><div id="greet"></div> </h1>
 
       <hr />
       <div class="row">
         <div class="col-sm-8 col-md-offset-2">
           <p>
             <div class="aboutme">
-            <div id="greet"></div> my name is Natallia and I am a Web Designer & Developer based in New York City. I enjoy creating beautiful we things using Ruby on Rails, HTML5, CSS3 and React. My other skills include Photoshop, WordPress, Quality Assurance, UX/UI design. Every day I try to fight against horrible web interfaces, destroy confusion in all forms, and  make the internet a more beautiful and positive place one block of code at a time.  You can see my resume <a href="https://learn.co/Natalisp/resume" target="_blank">here</a>. If you want to hire me or just to talk, <a class="js-connect" href="#footer">connect</a> with me.
+            <div id="me">My name is Natallia and I am a Web Designer & Developer based in New York City. I enjoy creating beautiful we things using Ruby on Rails, HTML5, CSS3 and React. My other skills include Photoshop, WordPress, Quality Assurance, UX/UI design. Every day I try to fight against horrible web interfaces, destroy confusion in all forms, and  make the internet a more beautiful and positive place one block of code at a time.  You can see my resume <a href="https://learn.co/Natalisp/resume" target="_blank">here</a>. If you want to hire me or just to talk, <a class="js-connect" href="#footer">connect</a> with me.</div>
           </div>
           </p>
         </div>
@@ -96,7 +97,7 @@
 
   <section id="contact" class="sec-contact">
     <div class="container">
-      <h1>Hire me</h1>
+      <h1>Contact me</h1>
 
       <hr />
 
@@ -118,7 +119,7 @@
             <div class="form-group">
               <label for="inputMessage" class="sr-only">Your Message</label>
 
-              <textarea id="inputMessage" class="form-control" name="message" cols="30" rows="8" required></textarea>
+              <textarea id="inputMessage" class="form-control" name="message" cols="50" rows="8" required></textarea>
             </div>
 
             <div class="form-group">
@@ -129,9 +130,10 @@
       </div>
     </div>
   </section>
-  <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-   <script src="./particles.js"></script>
-</body>
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./particles.js"></script>
+    <script type="text/javascript" src="./nav.js"></script>
+  </body>
 
   <footer id="footer">
     <div class="container">

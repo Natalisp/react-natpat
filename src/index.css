@@ -8,10 +8,11 @@ body {
   font-family: 'Open sans', sans-serif;
   font-weight: 300;
   background-color: #FFF;
+  font-size: 1.5vw;
 }
 
 html {
-  font-size: 16px;
+  font-size: 1vw;
 }
 
 
@@ -25,7 +26,7 @@ html {
 }
 
 .navbar .fa-external-link {
-  font-size: 10px;
+  font-size: 1vw;
 }
 
 .main-heading {
@@ -34,16 +35,18 @@ html {
   text-align: center;
   letter-spacing: 9px;
   text-transform: uppercase;
+  font-size: 2vw;
 }
 
 .container > h1 {
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
+  font-size: 2vw;
 }
 
 p {
-  font-size: 1vw;
+  font-size: 1.5vw;
   line-height: 1.5;
 }
 
@@ -97,7 +100,7 @@ a {
 }
 
 hr {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
   width: 7%;
 }
 
@@ -224,7 +227,7 @@ hr {
 .sec-contact .btn {
   padding: .5rem 1.75rem;
   background: #000;
-  font-size: 0.8vw;
+  font-size: 1vw;
   color: #fff;
 
   @extend %transition;
@@ -290,8 +293,17 @@ footer {
 }
 
 #greet {
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   width: 3vw;
+}
+
+.aboutme {
+  text-align: center;
+}
+
+.me {
+  display: inline-block;
 }
 
 .project-wrap:hover {
@@ -314,7 +326,7 @@ span.top {
 span.bottom {
   padding: 0 10px 15px;
   display: block;
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   padding-bottom: 10vh;
 
 }
