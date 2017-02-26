@@ -264,7 +264,7 @@ footer {
   padding: 0.5em .65rem;
   font-size: 1vw;
   color: #fff;
-  border-radius: 50%;
+  border-radius: 50% 50% 50% 50%;
   border: 2px solid;
 
   &:hover,
@@ -344,6 +344,11 @@ span.bottom {
   .navbar-default .navbar-nav>li>a {
     color: #000;
     font-size: 2vw;
+  }
+
+  .navbar-default .container-fluid .navbar-header a {
+    font-size: 2vw;
+    color: #777;
   }
 
   .navbar-default .navbar-nav>li>a:hover,
