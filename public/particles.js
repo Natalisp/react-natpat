@@ -70,7 +70,7 @@ function createParticle() {
 
   var one = '#000';
   var two = '#000';
-  var three = '#000';
+  var three = '#777';
   var array = [one, two, three];
   this.color = array[Math.floor(Math.random() * 3)];
   // making 3 mandatory colors (change it and fork - i might use that!)
@@ -158,7 +158,7 @@ function createParticle() {
 
   var one = '#000';
   var two = '#000';
-  var three = '#000';
+  var three = '#777';
   var array = [one, two, three];
   this.color = array[Math.floor(Math.random() * 3)];
   // making 3 mandatory colors (change it and fork - i might use that!)

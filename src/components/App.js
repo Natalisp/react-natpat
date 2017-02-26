@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../App.css';
-import $ from 'jquery';
 import Stats from './stats';
 
 class App extends Component {

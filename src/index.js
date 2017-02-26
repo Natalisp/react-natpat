@@ -5,8 +5,8 @@ import './index.css';
 import './custom.js';
 import Word from './components/word';
 import Projects from './components/projects';
-import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <App />,
