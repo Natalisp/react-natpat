@@ -34,7 +34,9 @@ class Word extends Component {
 
   render() {
     return(
-      <div>{this.state.greeting}</div>
+      <div>
+        <h1>{this.state.greeting}</h1>
+        </div>
     )
   }
 

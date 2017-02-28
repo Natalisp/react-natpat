@@ -305,10 +305,16 @@ footer {
   padding-bottom: 3vh;
 }
 
+.center-container {
+  text-align: center;
+}
+
 #greet {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
-  width: 3vw;
+  width: 7vw;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1vh;
 }
 
 .aboutme {
