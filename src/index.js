@@ -28,9 +28,10 @@ ReactDOM.render(
 
 $(function() {
   $("#contact-form").submit(function( event ) {
-    var name = $("#inputName").val();
-  alert('Excuse-moi ' + name + ',\nPlease email me at Nathalipat@gmail.com\nThank you!' );
+  //   var name = $("#inputName").val();
+  // alert('Excuse-moi ' + name + ',\nPlease email me at Nathalipat@gmail.com\nThank you!' );
   event.preventDefault();
+    $('#contact-me')[0].click();
    this.reset();
 });
 });
