@@ -313,6 +313,7 @@ footer {
   display: inline-block;
   margin: 0 auto;
   width: 7vw;
+  font-size: 2vw;
   border-bottom: 1px solid #eee;
   margin-bottom: 1vh;
 }
