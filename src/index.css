@@ -385,3 +385,16 @@ span.bottom {
     font-size: 3vw;
   }
 }
+
+#mail-me {
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+}
+
+#mail-me h1 {
+  font-weight: bolder;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2vw;
+}
