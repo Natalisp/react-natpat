@@ -141,12 +141,6 @@ footer {
   padding: 3em 0;
 }
 
-form {
-  @media screen and (max-width: 768px) and (min-width: 485px) {
-    max-width: 70%;
-  }
-}
-
 ul {
   padding: 0;
   margin: 0;
@@ -423,6 +417,22 @@ span.bottom {
   p {
     font-size: 2vw;
   }
+
+@media only screen and (max-width: 600px) {
+  .main-heading {
+    top: 20vh;
+    width: 60vw;
+    font: 500 5vw/6vw 'Work Sans', 'Helvetica', sans-serif;
+  }
+  .sec-main {
+    height: 50vh;
+    width: 90vw;
+    background-size: cover;
+  }
+  .soc-media-ul li a {
+    font-size: 3vw;
+  }
+}
 
   .navbar-default .navbar-nav>li>a {
     color: #000;
