@@ -2,7 +2,8 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open sans', sans-serif !important;
+  font: 500 24px/38px 'Work Sans', 'Helvetica', sans-serif;
+  letter-spacing: 2px;
   font-weight: 300;
   background-color: #FFF;
   font-size: 1.5vw;
@@ -12,13 +13,21 @@ html {
   font-size: 1vw;
 }
 
-.main-heading {
-  font-family: 'Open sans', sans-serif;
-  font-weight: 100;
-  text-align: center;
-  letter-spacing: 9px;
-  text-transform: uppercase;
-  font-size: 2vw;
+.main-logo {
+  position: fixed;
+  left: 3%;
+  font: 700 72px/72px 'NoeDisplay', 'Times', serif;
+  width: 50px;
+  height: 50px;
+  z-index: 3;
+}
+
+.main-logo #patsvg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10%;
+  transform-origin: center center;
 }
 
 .container > h1 {
@@ -26,6 +35,65 @@ html {
   text-align: center;
   text-transform: uppercase;
   font-size: 2vw;
+}
+
+.background-img {
+  display: block;
+  position: absolute;
+  max-width: calc(100% - 100px);
+  max-height: 100%;
+  margin: 0 auto;
+  bottom: 0;
+  z-index: 1;
+  left: 60%;
+  top: 10%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.aboutme strong {
+	position: relative;
+}
+
+.aboutme strong span {
+	position: relative;
+	z-index: 1;
+}
+
+.aboutme strong b {
+  position: relative;
+  z-index: 2;
+}
+
+.aboutme strong span:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 18px;
+  width: 100%;
+  background: #edeafd;
+  z-index: 1;
+}
+
+.contact-mail span {
+  font-size: 18px;
+  color: #f1cf63;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.contact-mail {
+  position: absolute;
+  top: 30%;
+  left: 48%;
+  z-index: 2;
+  transform: rotate(90deg) translateY(-100%);
+}
+
+.contact-mail a {
+  color: #000;
 }
 
 p {
@@ -173,15 +241,12 @@ nav.navbar-default {
 
 .main-heading {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
-  padding: 0;
-  margin: auto;
-  height: 20px;
-  color: #000;
+  top: 35vh;
+  left: 13vw;
+  z-index: 4;
+  width: 600px;
+  font: 500 7vh/9vh 'Work Sans', 'Helvetica', sans-serif;
+  color: #323232;
 }
 
 /*About*/
@@ -316,6 +381,7 @@ footer {
   font-size: 2vw;
   border-bottom: 1px solid #eee;
   margin-bottom: 1vh;
+  margin-top: 10vh;
 }
 
 .aboutme {
@@ -324,6 +390,10 @@ footer {
 
 .me {
   display: inline-block;
+}
+
+.me span {
+
 }
 
 .project-wrap:hover {
