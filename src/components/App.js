@@ -9,7 +9,7 @@ class App extends Component {
         <Stats max="6" description="Projects done in the last 6 months"/>
         <Stats max="405" description="GitHub repositories created in the last year"/>
         <Stats max="7" description="Frameworks and libraries used"/>
-        <Stats max="5" description="Languages spoken plus Ruby and JavaScript"/>
+        <Stats max="5" description="Languages spoken including Ruby and JavaScript"/>
       </div>
     )
   }
