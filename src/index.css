@@ -333,7 +333,7 @@ footer {
   margin-left: 2px;
 }
 
-.soc-media-ul a {
+.soc-media-ul li a {
   text-align: center;
   display: block;
   padding:0;
@@ -342,6 +342,10 @@ footer {
   color: #9b9ba4;
   border: none;
   line-height: 10px;
+  &:hover,
+  &:focus {
+    color: #ad0000;
+  }
 }
 
 #footer a:hover, a:focus {
