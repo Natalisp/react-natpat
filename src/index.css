@@ -52,6 +52,12 @@ html {
   transform: translateX(-50%);
 }
 
+.symbol {
+  color: yellow;
+  text-shadow: 0 0 5px orange;
+  bottom: 0;
+}
+
 .aboutme strong {
 	position: relative;
 }
