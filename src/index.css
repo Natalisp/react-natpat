@@ -382,10 +382,6 @@ footer {
   display: inline-block;
 }
 
-.me span {
-
-}
-
 .project-wrap:hover {
   transform: scale(1.15);
 }
@@ -425,12 +421,26 @@ span.bottom {
     font: 500 5vw/6vw 'Work Sans', 'Helvetica', sans-serif;
   }
   .sec-main {
-    height: 50vh;
+    height: 30vh;
     width: 90vw;
     background-size: cover;
   }
   .soc-media-ul li a {
     font-size: 3vw;
+  }
+  section {
+    padding: 2em 0;
+  }
+  .contact-mail {
+    top: 15%;
+  }
+  #stat {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+  span.bottom p {
+    font-size: 3vw;
+    padding-bottom: 5  vh;
   }
 }
 
