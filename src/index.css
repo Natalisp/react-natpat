@@ -390,7 +390,7 @@ span.bottom {
 
 @media only screen and (max-width: 800px) {
   p {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 
 @media only screen and (max-width: 600px) {
@@ -399,50 +399,61 @@ span.bottom {
     width: 60vw;
     font: 500 5vw/6vw 'Work Sans', 'Helvetica', sans-serif;
   }
+
+  #because {
+     top: 10vh;
+  }
+
   .sec-main {
-    height: 30vh;
+    height: 25vh;
     width: 90vw;
+    right: 5vw;
     background-size: cover;
   }
+
   .soc-media-ul li a {
     font-size: 3vw;
   }
+
   section {
-    padding: 2em 0;
+    padding: 10px 0;
   }
+
   .contact-mail {
     top: 15%;
   }
+
   #stat {
     padding-top: 1vh;
     padding-bottom: 1vh;
   }
+
   span.bottom p {
     font-size: 3vw;
     padding-bottom: 5  vh;
   }
 }
 
-  .navbar-default .navbar-nav>li>a {
+ .navbar-default .navbar-nav>li>a {
     color: #000;
     font-size: 2vw;
     margin-left: 10%;
-  }
+ }
 
-  .navbar-default .container-fluid .navbar-header a {
+ .navbar-default .container-fluid .navbar-header a {
     font-size: 3vw;
     color: #777;
   }
 
-  .navbar-default .navbar-nav>li>a:hover,
-  .navbar-default .navbar-nav>li>a:focus {
+ .navbar-default .navbar-nav>li>a:hover,
+ .navbar-default .navbar-nav>li>a:focus {
     color: #EFDC05;
     opacity: 1;
     transform: none;
     filter: none;
   }
 
-  .sec-contact .btn {
+ .sec-contact .btn {
     font-size: 3vw;
   }
 }
