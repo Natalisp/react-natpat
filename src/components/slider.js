@@ -3,7 +3,9 @@ import Slider from 'react-slick';
 
 import theG from '../images/theG.png';
 import bookinist from '../images/bookinist.png';
-import gifter from '../images/gifter.png';
+import gifter2 from '../images/gifter2.png';
+import gifter3 from '../images/gifter3.png';
+import gifter1 from '../images/gifter-front.png';
 import yumoo2 from '../images/yumoo2.png';
 import gitvisuals from '../images/gitvisuals.png';
 import gem from '../images/gem.png';
@@ -18,8 +20,10 @@ class SimpleSlider extends Component {
     return (
       <div className='slider'>
         	<Slider {...settings}>
-          	<div><img src={theG} /><div className="slider-caption"><span>The Gorod</span><p>Online magazine giving a fresh look into sumptuously rich and often hidden pearls in New York City.</p><p>Used: WordPress, HTML5, CSS3, Photoshop, Google analytics, Heap analytics, MailPoet.</p></div></div>
-            <div><img src={gifter} /><div className="slider-caption"><span>Gifter</span><p>Making gifts has never been more fun. Create wishlists, find friends, secretly discuss details and get excited.</p><p>Used: Ruby on Rails, ActiveRecord, MVC, Facebook OAuth, HTML5, CSS3, jQuery, Photoshop.</p></div></div>
+          	<div><img src={theG} /><div className="slider-caption"><span>The Gorod</span><p>Online magazine giving a fresh look into sumptuously rich and often hidden pearls in New York City.</p><p>Used: WordPress, HTML5, CSS3, Photoshop, Google analytics, Heap analytics, Google Adsense, MailPoet.</p></div></div>
+            <div><img src={gifter1} /><div className="slider-caption"><span>Gifter</span><p>Making gifts has never been more fun. Create wishlists, find friends, secretly discuss details and get excited.</p><p>Used: Ruby on Rails, ActiveRecord, MVC, Facebook OAuth, HTML5, CSS3, jQuery, Photoshop.</p></div></div>
+            <div><img src={gifter2} /><div className="slider-caption"><span>Gifter</span><p>Making gifts has never been more fun. Create wishlists, find friends, secretly discuss details and get excited.</p><p>Used: Ruby on Rails, ActiveRecord, MVC, Facebook OAuth, HTML5, CSS3, jQuery, Photoshop.</p></div></div>
+            <div><img src={gifter3} /><div className="slider-caption"><span>Gifter</span><p>Making gifts has never been more fun. Create wishlists, find friends, secretly discuss details and get excited.</p><p>Used: Ruby on Rails, ActiveRecord, MVC, Facebook OAuth, HTML5, CSS3, jQuery, Photoshop.</p></div></div>
             <div><img src={Shopify} /><div className="slider-caption"><span>Euro Porter Store</span><p>E-commerce website representing independent conceptual designers from Eastern Europe.</p><p>Used: Shopify, Heap analytics, Photoshop, CSS, HTML. </p></div></div>
             <div><img src={Shopify2} /><div className="slider-caption"><span>Euro Porter Store</span><p>E-commerce website representing independent conceptual designers from Eastern Europe.</p><p>Used: Shopify, Heap analytics, Photoshop, CSS, HTML. </p></div></div>
             <div><img src={bookinist} /><div className="slider-caption"><span>Bookinist</span><p>Sinatra application built to help avid readers to keep track of books they want to read.</p><p>Used: Sinatra framework with MVC structure, ActiveRecord, CSS, Bootstrap. </p></div></div>

@@ -485,6 +485,9 @@ span.bottom {
   background: #fff;
 }
 
+.slider img {
+  margin: 0 auto;
+}
 .slider-caption {
   color: #000;
   padding-top: 2em;
