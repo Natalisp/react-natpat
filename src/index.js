@@ -8,6 +8,7 @@ import Word from './components/word';
 import Projects from './components/projects';
 import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap/dist/css/bootstrap.css';
+import SimpleSlider from './components/slider';
 
 
 ReactDOM.render(
@@ -21,8 +22,8 @@ ReactDOM.render(
 );
 
 ReactDOM.render(
-  <Projects />,
-  document.getElementById('projects')
+  <SimpleSlider />,
+  document.getElementById('carousel')
 );
 
 
