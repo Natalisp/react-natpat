@@ -11,20 +11,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import SimpleSlider from './components/slider';
 
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('stats')
-);
 
 ReactDOM.render(
   <Word />,
   document.getElementById('greet')
 );
 
-ReactDOM.render(
-  <SimpleSlider />,
-  document.getElementById('carousel')
-);
+
 
 
 $(function() {
